@@ -33,7 +33,7 @@ func main() {
 	2. Sort the arrays (ascending order)
 	3. Loop through the arrays, calculate the difference and sum them
 	**/
-	file, err := os.Open("day1_test_case")
+	file, err := os.Open("day1/day1_test_case")
 	check(err)
 
 	fileScanner := bufio.NewScanner(file)
